@@ -12,11 +12,13 @@
   overflow: hidden;
 }
 
+/* IMAGEN SIN DISTORSIÓN */
 .hero-bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;        /* ← NO distorsiona, mantiene proporción */
+  object-position: center;  /* ← centra bien en mobile */
   filter: brightness(1);
 }
 
@@ -41,6 +43,40 @@
   font-size: 1.2rem;
   transition: background 0.25s;
 }
+
+/* ===============================
+   HERO RESPONSIVE
+   =============================== */
+
+@media (max-width: 900px) {
+  .hero {
+    height: 70vh; /* evitar scroll vertical excesivo */
+  }
+
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    height: 60vh; /* se ajusta mejor a móviles */
+  }
+
+  .hero-bg {
+    object-position: center top; /* muestra la parte útil de la imagen */
+  }
+
+  .hero-content h1 {
+    font-size: 1.3rem;
+    max-width: 90%;
+  }
+
+  .button-hero {
+    font-size: 1rem;
+  }
+}
+
 
 
 /* ===============================
