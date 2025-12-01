@@ -1,0 +1,11 @@
+{
+  "Xenor": {
+    "id": "xenor",
+    "image": "xenor.jpg",
+    "race": "Alien",
+    "clan": "Astralborn",
+    "realm": "Eternity",
+    "summary": "A traveler from beyond the stars.",
+    "markdown": "xenor.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Rhey": {
+    "id": "rhey",
+    "image": "rhey.jpg",
+    "race": "Elf",
+    "clan": "Starbound",
+    "realm": "Eternity",
+    "summary": "A graceful archer with perfect aim.",
+    "markdown": "rhey.md"
+  }
+}

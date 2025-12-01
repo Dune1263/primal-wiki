@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+
+:root {
+  /* ----- COLORS ----- */
+  --color-bg: #0e0e0e;
+  --color-bg-card: #1a1a1a;
+  --color-bg-hover: #222222;
+  --color-bg-pressed: #2c2c2c;
+
+  --color-border: #2a2a2a;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #c9c9c9;
+  --color-text-muted: #8a8a8a;
+
+  --color-accent: #e3b16f;
+  --color-accent-hover: #f0c785;
+  --color-accent-pressed: #d29a55;
+
+  --color-scrollbar: #3c3c3c;
+  --color-scrollbar-hover: #545454;
+
+  /* ----- SHADOWS ----- */
+  --shadow-soft: 0px 6px 18px rgba(0,0,0,0.4);
+  --shadow-card: 0px 8px 22px rgba(0,0,0,0.55);
+
+  /* ----- RADIUS ----- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+
+  /* ----- SPACING SYSTEM ----- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* ----- FONTS ----- */
+  --font-body: "Advent Pro", sans-serif;
+  --font-title: "Alumni Sans SC", sans-serif;
+
+  /* ----- ANIMATIONS ----- */
+  --fade-duration: 0.35s;
+  --fade-ease: cubic-bezier(0.4, 0, 0.2, 1);
+}

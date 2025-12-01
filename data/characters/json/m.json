@@ -1,0 +1,11 @@
+{
+  "Morvek": {
+    "id": "morvek",
+    "image": "morvek.jpg",
+    "race": "Dragonborn",
+    "clan": "Red Scale",
+    "realm": "Material Realm",
+    "summary": "A guardian chosen by ancient dragons.",
+    "markdown": "morvek.md"
+  }
+}

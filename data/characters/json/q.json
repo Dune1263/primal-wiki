@@ -1,0 +1,11 @@
+{
+  "Qorin": {
+    "id": "qorin",
+    "image": "qorin.jpg",
+    "race": "Demon",
+    "clan": "Hellforged",
+    "realm": "Nether",
+    "summary": "A demon monk who seeks redemption.",
+    "markdown": "qorin.md"
+  }
+}

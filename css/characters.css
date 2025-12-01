@@ -1,0 +1,122 @@
+/* ===========================
+      LISTA DE PERSONAJES
+      (IGUAL ESTILO QUE STORY)
+=========================== */
+
+.characters-list {
+  width: 70%;
+  max-width: 1100px;
+  margin: 40px auto 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+/* ===========================
+      ITEM PRINCIPAL
+=========================== */
+
+.letter-group {
+    background: rgba(15, 15, 15, 0.9);              /* Igual que story-item */
+    border: 1px solid rgba(255, 255, 255, 0.08);    /* Igual */
+    border-radius: 8px;                             /* Igual */
+    padding: 0;                                     /* El header lleva el padding */
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+
+.letter-group:hover {
+    background: rgba(255, 255, 255, 0.05);          /* Igual hover */
+}
+
+
+/* ===========================
+      HEADER
+=========================== */
+
+.letter-header {
+    padding: 18px 20px;                /* Igual que story-header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-title);
+    font-size: 1rem;                    /* Igual tamaño */
+    color: white;
+    letter-spacing: 0.5px;              /* Igual */
+}
+
+
+/* ===========================
+      FLECHA
+=========================== */
+
+.letter-arrow {
+    font-size: 1rem;                    /* Igual tamaño de flecha */
+    opacity: 1;                         /* Igual */
+    transition: transform 0.25s ease;
+}
+
+.letter-group.open .letter-arrow {
+    transform: rotate(180deg);
+}
+
+
+/* ===========================
+      CONTENIDO DESPLEGABLE
+=========================== */
+
+.letter-content {
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 20px;                 /* Igual que story-body */
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    margin-top: 0;                      /* Elimina separación no deseada */
+}
+
+.letter-group.open .letter-content {
+    padding: 12px 20px 20px 20px;       /* Igual que story */
+    max-height: 600px;                  /* Ajustable */
+}
+
+
+/* ===========================
+      TARJETAS INTERIORES
+=========================== */
+
+.character-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 0;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.character-card:last-child {
+  border-bottom: none;
+}
+
+.character-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.character-card h3 {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  color: white;
+}
+
+.character-card p {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.7);
+}
+
+.character-card:hover h3 {
+  color: var(--color-accent);
+}

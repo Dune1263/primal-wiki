@@ -1,0 +1,11 @@
+{
+  "Isha": {
+    "id": "isha",
+    "image": "isha.jpg",
+    "race": "Serpentfolk",
+    "clan": "Coilborn",
+    "realm": "Material Realm",
+    "summary": "Silent and deadly, master of poisons.",
+    "markdown": "isha.md"
+  }
+}

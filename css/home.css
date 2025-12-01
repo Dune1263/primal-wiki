@@ -1,0 +1,139 @@
+/* ===============================
+        HERO
+   =============================== */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: brightness(1);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.button-hero {
+  color: white;
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  transition: background 0.25s;
+}
+
+
+/* ===============================
+        CARDS
+   =============================== */
+
+/* CONTENEDOR GENERAL */
+.cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+/* GRID PARA LOS CARDS PEQUEÑOS */
+.cards-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+}
+
+/* CARD BASE */
+.home-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s;
+}
+
+/* Small cards */
+.home-card.small {
+  width: 100%;
+  height: 100%;      
+}
+
+/* Fondo */
+.card-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CRISTAL (Overlay general) */
+.card-overlay {
+  position: absolute;
+  width: 98%;
+  height: 89%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  padding: 28px 34px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.18);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+
+  transition: border-color 0.5s ease;
+}
+
+.card-overlay:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Textos */
+.card-overlay h2 {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.card-overlay p {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* OVERLAY PARA CARDS PEQUEÑOS — igual proporción que los grandes */
+.small-overlay {
+  width: 96%;     
+  height: 89%;
+  padding: 20px;   /* solo reduce padding, NO tamaño */
+}

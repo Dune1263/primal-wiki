@@ -1,0 +1,11 @@
+{
+  "Boran": {
+    "id": "boran",
+    "image": "boran.jpg",
+    "race": "Orc",
+    "clan": "Stone Fangs",
+    "realm": "Material Realm",
+    "summary": "A fierce warrior with a surprisingly calm heart.",
+    "markdown": "boran.md"
+  }
+}

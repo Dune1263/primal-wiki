@@ -1,0 +1,11 @@
+{
+  "Orvak": {
+    "id": "orvak",
+    "image": "orvak.jpg",
+    "race": "Ogre",
+    "clan": "Bone Crushers",
+    "realm": "Material Realm",
+    "summary": "Massive, loyal, and surprisingly gentle.",
+    "markdown": "orvak.md"
+  }
+}

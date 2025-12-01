@@ -1,0 +1,12 @@
+{
+  "Grelka": {
+    "id": "grelka",
+    "image": "grelka.jpg",
+    "race": "Goblin",
+    "clan": "Junk Rats",
+    "realm": "Material Realm",
+    "summary": "Small, clever, and dangerously curious.",
+    "markdown": "grelka.md"
+  }
+}
+    

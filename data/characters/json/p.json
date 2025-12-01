@@ -1,0 +1,127 @@
+{
+    "Pablo": {
+        "id": "pablo",
+        "name": "Pablo",
+        "age": "16 years old",
+        "gender": "Male",
+        "race": "Evolved penguin",
+        "height": "1.24 cm",
+        "weight": "34 kg",
+        "state": "Alive",
+        "primalEnergy": "Water",
+        "weapons": [],
+        "specialAbilities": [],
+        "clan": "White Lotus Order",
+
+        "image": "pablo.jpg",
+
+        "about": "Pablo was born...",
+
+        "appearances": [
+            "Tournament Arc",
+            "Island Arc"
+        ],
+
+        "extraAbilities": [
+            "Sliding Flipper"
+        ],
+
+        "trivia": [
+            "Usually dreams the same as his brother Bruno."
+        ],
+
+        "quotes": [
+            "I'll never give up!",
+            "Strength comes from within."
+        ],
+
+        "gallery": [
+            "dokey1.jpg",
+            "dokey2.jpg",
+            "dokey3.jpg"
+        ]
+    },
+
+    "Poncho": {
+        "id": "poncho",
+        "name": "Poncho",
+        "age": "15 years old",
+        "gender": "Male",
+        "race": "Evolved reindeer",
+        "height": "1.74 cm",
+        "weight": "83 kg",
+        "state": "Alive",
+        "primalEnergy": "Earth",
+        "weapons": [],
+        "specialAbilities": [],
+        "clan": "None",
+
+        "image": "poncho.png",
+
+        "about": "Poncho was born...",
+
+        "appearances": [
+            "Tournament Arc",
+            "Island Arc"
+        ],
+
+        "extraAbilities": [
+            "Super punch",
+            "Enhanced reflexes"
+        ],
+
+        "trivia": [
+            "He sleeps with his eyes open.",
+            "He hates cucumbers."
+        ],
+
+        "quotes": [
+            "I'll never give up!",
+            "Strength comes from within."
+        ],
+
+        "gallery": [
+            "dokey1.jpg",
+            "dokey2.jpg",
+            "dokey3.jpg"
+        ]
+    },
+
+    "Po": {
+        "id": "po",
+        "name": "Po",
+        "age": "16 years old",
+        "gender": "Male",
+        "race": "Evolved bear",
+        "height": "1.83 cm",
+        "weight": "134 kg",
+        "state": "Alive",
+        "primalEnergy": "Fire",
+        "weapons": [],
+        "specialAbilities": [],
+        "clan": "None",
+
+        "image": "po.png",
+
+        "about": "Po was born..."
+    },
+
+    "Pu": {
+        "id": "pu",
+        "name": "Pu",
+        "age": "13 years old",
+        "gender": "Male",
+        "race": "Evolved bear",
+        "height": "1.67 cm",
+        "weight": "98 kg",
+        "state": "Alive",
+        "primalEnergy": "Fire",
+        "weapons": [],
+        "specialAbilities": [],
+        "clan": "None",
+
+        "image": "pu.png",
+
+        "about": "Pu was born..."
+    }
+}

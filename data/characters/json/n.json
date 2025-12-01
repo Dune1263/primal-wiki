@@ -1,0 +1,11 @@
+{
+  "Nira": {
+    "id": "nira",
+    "image": "nira.jpg",
+    "race": "Human",
+    "clan": "Shadow Vow",
+    "realm": "Limbo",
+    "summary": "A rogue who walks in absolute silence.",
+    "markdown": "nira.md"
+  }
+}

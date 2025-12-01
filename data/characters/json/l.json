@@ -1,0 +1,11 @@
+{
+  "Lyra": {
+    "id": "lyra",
+    "image": "lyra.jpg",
+    "race": "Human",
+    "clan": "Celestial Choir",
+    "realm": "Eternity",
+    "summary": "Her songs bend the fabric of magic.",
+    "markdown": "lyra.md"
+  }
+}

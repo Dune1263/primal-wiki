@@ -1,0 +1,11 @@
+{
+  "Aiden": {
+    "id": "aiden",
+    "image": "aiden.jpg",
+    "race": "Human",
+    "clan": "None",
+    "realm": "Material Realm",
+    "summary": "A wanderer searching for forgotten knowledge.",
+    "markdown": "aiden.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Wynd": {
+    "id": "wynd",
+    "image": "wynd.jpg",
+    "race": "Spirit",
+    "clan": "Zephyrs",
+    "realm": "Eternity",
+    "summary": "A ghostlike figure born from the wind.",
+    "markdown": "wynd.md"
+  }
+}

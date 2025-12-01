@@ -1,0 +1,11 @@
+{
+  "Zeth": {
+    "id": "zeth",
+    "image": "zeth.jpg",
+    "race": "Lizardfolk",
+    "clan": "Sunscale",
+    "realm": "Material Realm",
+    "summary": "Cold-blooded but fiercely loyal.",
+    "markdown": "zeth.md"
+  }
+}

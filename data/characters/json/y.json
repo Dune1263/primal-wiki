@@ -1,0 +1,11 @@
+{
+  "Yara": {
+    "id": "yara",
+    "image": "yara.jpg",
+    "race": "Human",
+    "clan": "Sandstriders",
+    "realm": "Material Realm",
+    "summary": "A desert scout with unmatched precision.",
+    "markdown": "yara.md"
+  }
+}

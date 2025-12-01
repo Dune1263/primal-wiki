@@ -1,0 +1,11 @@
+{
+  "Sylas": {
+    "id": "sylas",
+    "image": "sylas.jpg",
+    "race": "Human",
+    "clan": "Storm Guard",
+    "realm": "Material Realm",
+    "summary": "Lightning crackles at his fingertips.",
+    "markdown": "sylas.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Hiro": {
+    "id": "hiro",
+    "image": "hiro.jpg",
+    "race": "Human",
+    "clan": "None",
+    "realm": "Limbo",
+    "summary": "A man trapped between worlds.",
+    "markdown": "hiro.md"
+  }
+}

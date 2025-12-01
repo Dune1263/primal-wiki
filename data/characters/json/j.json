@@ -1,0 +1,11 @@
+{
+  "Jorek": {
+    "id": "jorek",
+    "image": "jorek.jpg",
+    "race": "Dwarf",
+    "clan": "Ironforge",
+    "realm": "Material Realm",
+    "summary": "A blacksmith whose creations never fail.",
+    "markdown": "jorek.md"
+  }
+}

@@ -1,0 +1,139 @@
+/* Page wrapper */
+.character-container {
+    width: 70%;
+    max-width: 1600px;
+    margin: 120px auto 80px auto;
+}
+
+/* Back button */
+.back-button a {
+    color: white;
+    font-size: 1rem;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.back-button a:hover {
+    opacity: 1;
+}
+
+/* Main layout */
+.character-layout {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr; /* equivalente a 30% 30% 40% */
+    gap: 20px;
+}
+
+
+/* Character image */
+.character-image-box {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.character-image-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* General information*/
+.general-info-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 8px;
+}
+
+.character-section {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 20px 24px;
+}
+
+/* Section titles */
+.character-section h3 {
+    font-family: var(--font-title);
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* About text */
+.character-section p {
+    color: #ccc;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+/* ================================
+   EXTRA CHARACTER SECTIONS
+   ================================ */
+
+.character-extra-sections {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.extra-section {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 14px;
+    padding: 26px 32px;
+}
+
+.extra-section h3 {
+    font-family: var(--font-title);
+    font-size: 1.1rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 14px;
+}
+
+/* Listas comunes */
+.extra-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.extra-section ul li {
+    margin-bottom: 6px;
+    font-family: var(--font-body);
+    opacity: 0.9;
+}
+
+/* Quotes */
+.quotes-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quotes-box div {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Gallery grid */
+.gallery-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}

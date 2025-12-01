@@ -1,0 +1,11 @@
+{
+  "Elwyn": {
+    "id": "elwyn",
+    "image": "elwyn.jpg",
+    "race": "Fae",
+    "clan": "Moon Court",
+    "realm": "Eternity",
+    "summary": "A mysterious being who speaks in riddles.",
+    "markdown": "elwyn.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Celia": {
+    "id": "celia",
+    "image": "celia.jpg",
+    "race": "Elf",
+    "clan": "Silver Branch",
+    "realm": "Eternity",
+    "summary": "A magical prodigy with forbidden powers.",
+    "markdown": "celia.md"
+  }
+}

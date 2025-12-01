@@ -1,0 +1,11 @@
+{
+  "Urek": {
+    "id": "urek",
+    "image": "urek.jpg",
+    "race": "Giant",
+    "clan": "Earthshakers",
+    "realm": "Material Realm",
+    "summary": "A calm titan with unmatched strength.",
+    "markdown": "urek.md"
+  }
+}

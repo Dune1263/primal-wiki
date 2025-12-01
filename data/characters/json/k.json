@@ -1,0 +1,11 @@
+{
+  "Kael": {
+    "id": "kael",
+    "image": "kael.jpg",
+    "race": "Elemental",
+    "clan": "None",
+    "realm": "Eternity",
+    "summary": "A being sculpted from pure flame.",
+    "markdown": "kael.md"
+  }
+}

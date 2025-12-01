@@ -1,0 +1,11 @@
+{
+  "Talim": {
+    "id": "talim",
+    "image": "talim.jpg",
+    "race": "Harpy",
+    "clan": "Skyborn",
+    "realm": "Eternity",
+    "summary": "Fast as the wind, sharp as a blade.",
+    "markdown": "talim.md"
+  }
+}

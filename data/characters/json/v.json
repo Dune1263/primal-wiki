@@ -1,0 +1,11 @@
+{
+  "Vasha": {
+    "id": "vasha",
+    "image": "vasha.jpg",
+    "race": "Vampire",
+    "clan": "Blood Court",
+    "realm": "Nether",
+    "summary": "Cold, elegant, and eternally hungry.",
+    "markdown": "vasha.md"
+  }
+}

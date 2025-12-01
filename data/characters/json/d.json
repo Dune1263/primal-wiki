@@ -1,0 +1,35 @@
+{
+    "Dokey": {
+        "id": "Dokey",
+        "name": "Dokey",
+        "age": "14 years old",
+        "gender": "Male",
+        "race": "Evolved dog",
+        "height": "1.48 cm",
+        "weight": "56 kg",
+        "state": "Alive",
+        "primalEnergy": "Earth",
+        "weapons": [],
+        "specialAbilities": [],
+        "clan": "None",
+        "image": "Dokey.png",
+        "about": "Dokey was born..."
+    },
+
+    "Doki": {
+        "id": "Doki",             
+        "name": "Doki",
+        "age": "17 years old",
+        "gender": "Male",
+        "race": "Evolved dog",
+        "height": "1.50 cm",
+        "weight": "65 kg",
+        "state": "Alive",
+        "primalEnergy": "Earth",
+        "weapons": [],
+        "specialAbilities": [],
+        "clan": "None",
+        "image": "Doki.png",
+        "about": "Doki was born..."
+    }
+}

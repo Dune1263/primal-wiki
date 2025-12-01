@@ -1,0 +1,11 @@
+{
+  "Frost": {
+    "id": "frost",
+    "image": "frost.jpg",
+    "race": "Wolfkin",
+    "clan": "Northern Fang",
+    "realm": "Material Realm",
+    "summary": "A lone wolf who commands the ice.",
+    "markdown": "frost.md"
+  }
+}
