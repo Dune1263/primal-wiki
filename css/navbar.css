@@ -1,3 +1,7 @@
+/* ------------------------------------------
+   SECTION: Navbar Base
+------------------------------------------- */
+
 .navbar {
   position: fixed;
   top: 20px;
@@ -22,6 +26,10 @@
 
   z-index: 1000;
 }
+
+/* ------------------------------------------
+   SECTION: Right-Side Navigation Links
+------------------------------------------- */
 
 .nav-right a {
   font-family: var(--font-title);

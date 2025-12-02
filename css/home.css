@@ -1,6 +1,6 @@
-/* ===============================
-           HERO
-   =============================== */
+/* ------------------------------------------
+   SECTION: Hero Base
+------------------------------------------- */
 
 .hero {
   position: relative;
@@ -12,16 +12,23 @@
   overflow: hidden;
 }
 
+/* ------------------------------------------
+   SECTION: Hero Background
+------------------------------------------- */
+
 .hero-bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: fill;     /* ← muestra la imagen completa */
-  object-position: center; /* ← centrada correctamente */
-  background-color: #000;  /* ← rellena las zonas vacías */
+  object-fit: fills;
+  object-position: center;
+  background-color: #000;
   filter: brightness(1);
 }
 
+/* ------------------------------------------
+   SECTION: Hero Content
+------------------------------------------- */
 
 .hero-content {
   position: relative;
@@ -30,7 +37,6 @@
   padding: 0 20px;
 }
 
-/* ==== TÍTULO RESPONSIVE ==== */
 .hero-content h1 {
   font-family: var(--font-title);
   font-size: clamp(1.4rem, 6vw, 3.5rem);
@@ -46,9 +52,9 @@
   transition: background 0.25s;
 }
 
-/* ===============================
-        HERO RESPONSIVE
-   =============================== */
+/* ------------------------------------------
+   SECTION: Hero Responsive
+------------------------------------------- */
 
 @media (max-width: 900px) {
   .hero {
@@ -62,15 +68,14 @@
   }
 
   .hero-bg {
-    object-position: center top; /* muestra la parte útil */
+    object-position: center top;
   }
 }
 
-/* ===============================
-        CARDS
-   =============================== */
+/* ------------------------------------------
+   SECTION: Cards Container
+------------------------------------------- */
 
-/* CONTENEDOR GENERAL */
 .cards-container {
   width: 100%;
   display: flex;
@@ -78,7 +83,10 @@
   gap: 0px;
 }
 
-/* GRID PARA CARDS PEQUEÑOS */
+/* ------------------------------------------
+   SECTION: Cards Grid (Small Cards)
+------------------------------------------- */
+
 .cards-grid {
   width: 100%;
   display: grid;
@@ -86,7 +94,10 @@
   gap: 0px;
 }
 
-/* CARD BASE */
+/* ------------------------------------------
+   SECTION: Card Base
+------------------------------------------- */
+
 .home-card {
   position: relative;
   width: 100%;
@@ -96,20 +107,23 @@
   transition: transform 0.25s;
 }
 
-/* Small cards */
+/* Small variant */
 .home-card.small {
   width: 100%;
   height: 100%;
 }
 
-/* Fondo */
+/* Background image */
 .card-bg-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* CRISTAL */
+/* ------------------------------------------
+   SECTION: Glass Overlay
+------------------------------------------- */
+
 .card-overlay {
   position: absolute;
   width: 98%;
@@ -141,7 +155,16 @@
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Textos */
+.small-overlay {
+  width: 96%;
+  height: 89%;
+  padding: clamp(12px, 3vw, 20px);
+}
+
+/* ------------------------------------------
+   SECTION: Overlay Text
+------------------------------------------- */
+
 .card-overlay h2 {
   font-family: var(--font-title);
   font-size: clamp(1rem, 4vw, 2.2rem);
@@ -154,19 +177,12 @@
   opacity: 0.9;
 }
 
-/* OVERLAY PARA CARDS PEQUEÑOS */
-.small-overlay {
-  width: 96%;
-  height: 89%;
-  padding: clamp(12px, 3vw, 20px);
-}
-
-/* ===============================
-        CARDS RESPONSIVE
-   =============================== */
+/* ------------------------------------------
+   SECTION: Cards Responsive
+------------------------------------------- */
 
 @media (max-width: 700px) {
   .cards-grid {
-    grid-template-columns: 1fr;  /* cards pequeños en columna */
+    grid-template-columns: 1fr;
   }
 }

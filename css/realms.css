@@ -1,6 +1,6 @@
-/* ==========================
-   CONTENEDOR GENERAL
-   ========================== */
+/* ------------------------------------------
+   SECTION: Realms Container
+------------------------------------------- */
 
 .realms-container {
   width: 100%;
@@ -15,36 +15,35 @@
 }
 
 .realms-visual-wrapper {
-    border-radius: 40px;         
-    overflow: hidden;            
+  border-radius: 40px;
+  overflow: hidden;
 }
 
+/* ------------------------------------------
+   SECTION: Realm Cards
+------------------------------------------- */
 
-/* ==========================
-   CARDS DE REALM
-   ========================== */
-
-/* ALTURA CORRECTA PARA CADA REALM CARD */
 .realm-card {
-    position: relative;
-    width: 100%;
-    min-height: 910px;      /* ← altura real, sin aplastar imagen */
-    height: auto;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 910px;
+  height: auto;
+  overflow: hidden;
 }
 
-/* Imagen sin deformarse */
 .realm-bg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;      /* ← antes era fill (deformaba) */
-    filter: brightness(0.7);
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
 }
 
+/* ------------------------------------------
+   SECTION: Inner Glass Panel
+------------------------------------------- */
 
-/* cristal interno*/
 .realm-glass {
   position: relative;
   margin: 18px;
@@ -71,7 +70,9 @@
   text-transform: uppercase;
 }
 
-/* texto interno */
+/* ------------------------------------------
+   SECTION: Realm Text Blocks
+------------------------------------------- */
 
 .realm-text {
   font-family: var(--font-body);
@@ -94,12 +95,11 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-/* ==========================
-   RESPONSIVE
-   ========================== */
+/* ------------------------------------------
+   SECTION: Responsive — Tablet
+------------------------------------------- */
 
 @media (max-width: 900px) {
-
   .realms-hero-content {
     padding: 0 26px;
   }
@@ -118,8 +118,11 @@
   }
 }
 
-@media (max-width: 600px) {
+/* ------------------------------------------
+   SECTION: Responsive — Mobile
+------------------------------------------- */
 
+@media (max-width: 600px) {
   .realms-hero {
     height: 36vh;
   }
