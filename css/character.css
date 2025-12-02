@@ -1,3 +1,7 @@
+/* ================================
+        CHARACTER PAGE BASE
+================================ */
+
 /* Page wrapper */
 .character-container {
     width: 70%;
@@ -16,14 +20,16 @@
     opacity: 1;
 }
 
-/* Main layout */
+/* ================================
+        MAIN GRID (DESKTOP)
+================================ */
+
 .character-layout {
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 3fr 3fr 4fr; /* equivalente a 30% 30% 40% */
+    grid-template-columns: 3fr 3fr 4fr; /* image - general info - about */
     gap: 20px;
 }
-
 
 /* Character image */
 .character-image-box {
@@ -39,7 +45,7 @@
     border-radius: 10px;
 }
 
-/* General information*/
+/* General information */
 .general-info-grid {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -72,8 +78,8 @@
 }
 
 /* ================================
-   EXTRA CHARACTER SECTIONS
-   ================================ */
+      EXTRA CHARACTER SECTIONS
+================================ */
 
 .character-extra-sections {
     width: 100%;
@@ -99,7 +105,7 @@
     margin-bottom: 14px;
 }
 
-/* Listas comunes */
+/* Lists */
 .extra-section ul {
     list-style: none;
     padding-left: 0;
@@ -136,4 +142,71 @@
     border-radius: 8px;
     object-fit: cover;
     border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+/* ================================
+            RESPONSIVE
+   Foto + Info juntos, About abajo
+================================ */
+
+@media (max-width: 1000px) {
+
+    .character-container {
+        width: 90%;
+        margin: 100px auto 60px auto;
+    }
+
+    /* Mantener 2 columnas:
+        [IMG] [INFO]
+        [ABOUT] abajo completo
+    */
+    .character-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    /* ABOUT ocupa toda la fila */
+    .about-section {
+        grid-column: 1 / 3 !important;
+        width: 100%;
+    }
+
+    /* Imagen más pequeña */
+    .character-image-box img {
+        width: 80%;
+        max-width: 260px;
+    }
+
+    /* Mantener general info SIEMPRE en 2 columnas */
+    .general-info-grid {
+    grid-template-columns: 40% 60%;
+}
+
+}
+
+
+/* ================================
+      MOBILE SMALL (<600px)
+   Todo en una columna vertical
+================================ */
+
+@media (max-width: 600px) {
+
+    .character-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .about-section {
+        grid-column: 1 / 2 !important;
+    }
+
+    .character-image-box {
+        padding: 16px;
+    }
+
+    .character-image-box img {
+        width: 75%;
+    }
 }
